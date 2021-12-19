@@ -35,7 +35,7 @@ def mainfunction():
         try:
             Email = random_char(10)+"@zdomenik.net"
             password = random_char(20)
-            payload = f'birth_day=19&birth_month=12&birth_year=2000&collect_personal_info=undefined&creation_flow=&creation_point=https%3A%2F%2Fwww.spotify.com%2Fus%2F&displayname=DreamyOnTop&gender=male&iagree=1&key=a1e486e2729f46d6bb368d6b2bcda326&platform=www&referrer=&send-email=0&thirdpartyemail=1&email={Email}&password={password}&password_repeat={password}'
+            payload = f'birth_day=19&birth_month=12&birth_year=2000&collect_personal_info=undefined&creation_flow=&creation_point=https%3A%2F%2Fwww.spotify.com%2Fus%2F&displayname=mNJhJlJnKl&gender=male&iagree=1&key=a1e486e2729f46d6bb368d6b2bcda326&platform=www&referrer=&send-email=0&thirdpartyemail=1&email={Email}&password={password}&password_repeat={password}'
             response = requests.request("POST", url, headers=headers, data=payload)
             print(f"{Email}:{password}")
             save = open("accounts.txt", "a")
