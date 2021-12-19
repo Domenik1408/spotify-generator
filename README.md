@@ -2,6 +2,8 @@
 
 This is a proxyless spotify account generator.
 
-This is for educational purposes only.
+It makes hundreds accounts in seconds.
 
-# <3
+This software is for abuse a platform. Use at your own risk
+
+# This is purely for educational purposes only.
