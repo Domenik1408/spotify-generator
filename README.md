@@ -1,5 +1,7 @@
 # Spotify Account Generator
 
+# Gen is patched and doesn't work anymore.
+
 This is a proxyless spotify account generator.
 
 It makes hundreds accounts in seconds.
